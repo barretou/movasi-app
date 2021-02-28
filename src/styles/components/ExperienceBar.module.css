@@ -1,0 +1,38 @@
+/*Usamos modulos css para estilizar 
+cada componente evitando que as classes de estiização se misturem ao longo do projeto.*/
+
+.experienceBar {
+    display: flex;
+    align-items: center;
+}
+
+.experienceBar span {
+    font-size: 1rem;     
+}
+
+.experienceBar > div {
+    flex: 1;
+    height: 4px;
+    border-radius: 4x;
+    background: var(--grayline);
+    margin: 1rem 1.5rem;
+    position: relative;
+}
+
+.experienceBar > div > div {
+    height: 4px;
+    border-radius: 4px;
+    background: var(--blue-dark);
+}
+
+span.currentExperience {
+    position: absolute;
+    top: 12px;
+    transform: translateX(-50%);
+}
+
+@media(max-height:768px){
+    .experienceBar {
+        margin-bottom: 4rem;
+    }
+}
