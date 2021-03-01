@@ -1,14 +1,16 @@
 # movasi-app
-Web app to increase your productivity **suggesting exercises during your activity on computer**. It has a **cycle** of time. among this cycles you'll receive a **"Exercise challenges"** that helps in your concentration on computer and avoid problems from the over use of computer. According with your progress on challenge's conclusion, you'll gain experience and improving your level.
+Aplicativo web com foco em aumentar sua produtividade sugerindo exercícios específicos durante o tempo que você passa realizando suas atividades no computador. Há um ciclo de tempo default de 25 minutos, entre estes ciclos, você receberá um "Desafio" que consiste na execuçção de algum exercício ou allongamento que ajuda na sua concentração no computador. Isso evitará problemas decorrente do uso excessivo do computador além de manter você concentrado na sua atividade por horas. De acordo com seu progresso na conclusão dos desafios, você ganhará experiência e aprimorará seu nível.
 
 
 ## Getting started
 
-* With all archives of movasi-app in yout computer, open with one terminal the directory of it and rum the comand `npm run dev`
-* The app will open with your default browser.
+* Você pode baixar o zip dos arquivos deste repositório e salvar em algum diretório de sua preferência. 
+* Baixe o gerenciador de pacotes NPM no seu computador, dependendo do seu sistema operacional, a instalação pode mudar mas geralmente o processo é bem simples.
+* Abra com o terminal o diretório no qual você salvou os arquivos e digite o comando `npm run dev` e depois aperte ENTER.
+* Depois disso, o app irá abrir no seu navegador padrão. Agora é só usar!!
 
 ## Tecnologies 
 
-* React JS to creat the front-end
-* Next JS to improve the SEO's applications
-* Contexts APIs to give funcionalities to app, besides of the integration among the components.
+* React JS para criar a interface do usuário
+* Next JS para otimizar o SEO (Search Engine Optmization) da aplicação para ela ser achada com mais facilidade pelos buscadores
+* Contexts APIs para conectar os componentes da aplicação, já que cada componente depende de outros para retornar conteúdo em tela.
